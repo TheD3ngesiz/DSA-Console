@@ -1,0 +1,36 @@
+#!/bin/bash
+#
+#
+#Colors
+cyan='\e[0;36m'
+green='\e[0;32m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+blue='\e[1;34m'
+#FinishColors
+echo -e $lightgreen ""
+echo " ______   _______  _______     _______  _______  _        _______  _______  _        _______  ";
+echo "(  __  \ (  ____ \(  ___  )   (  ____ \(  ___  )( (    /|(  ____ \(  ___  )( \      (  ____ \ ";
+echo "| (  \  )| (    \/| (   ) |   | (    \/| (   ) ||  \  ( || (    \/| (   ) || (      | (    \/ ";
+echo "| |   ) || (_____ | (___) |   | |      | |   | ||   \ | || (_____ | |   | || |      | (__     ";
+echo "| |   | |(_____  )|  ___  |   | |      | |   | || (\ \) |(_____  )| |   | || |      |  __)    ";
+echo "| |   ) |      ) || (   ) |   | |      | |   | || | \   |      ) || |   | || |      | (       ";
+echo "| (__/  )/\____) || )   ( | _ | (____/\| (___) || )  \  |/\____) || (___) || (____/\| (____/\ ";
+echo "(______/ \_______)|/     \|(_)(_______/(_______)|/    )_)\_______)(_______)(_______/(_______/ ";
+echo -e $cyan "---------------------------"
+echo -e $red  " Welcome to installer tool "
+echo -e $red  "       darksecarmy.com     "
+echo -e $cyan "---------------------------"
+mkdir /usr/share/Dsa.console
+cp install /usr/share/Dsa.console  
+cp beta.pyc /usr/share/Dsa.console
+rm -r /root/Desktop/Dsa.console
+echo -e $yellow " [✔] Succesfully İnstall [✔] "
+echo "#!/bin/sh" >> /usr/bin/Dsa.console
+echo "cd /usr/share/Dsa.console" >> /usr/bin/Dsa.console  
+echo "python2 beta.pyc \"\$@\"" >> /usr/bin/Dsa.console  
+chmod 777 /usr/bin/Dsa.console
+echo -e $lightgreen " ThePasha - StrongWolf - TheDengesiz_ - CeLLaT"
+echo -e $blue " DarkSecArmy.Com #WaitForUs "  
