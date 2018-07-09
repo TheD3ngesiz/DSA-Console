@@ -26,7 +26,6 @@ echo -e $cyan "---------------------------"
 mkdir /usr/share/Dsa.console
 cp install /usr/share/Dsa.console  
 cp beta.pyc /usr/share/Dsa.console
-rm -r /root/Desktop/Dsa.console
 echo -e $yellow " [✔] Succesfully İnstall [✔] "
 echo "#!/bin/sh" >> /usr/bin/Dsa.console
 echo "cd /usr/share/Dsa.console" >> /usr/bin/Dsa.console  
