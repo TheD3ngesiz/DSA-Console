@@ -27,4 +27,5 @@ echo -e $green +---------------+
 rm -r /usr/share/Dsa.console
 echo -e $red { Succesfuly Unistall }
 echo -e $blue { DarkSecArmy.Com }
+echo -e $blue { PcDunyasi.TV }
 exit                                                              
