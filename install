@@ -21,7 +21,7 @@ echo "| (__/  )/\____) || )   ( | _ | (____/\| (___) || )  \  |/\____) || (___) 
 echo "(______/ \_______)|/     \|(_)(_______/(_______)|/    )_)\_______)(_______)(_______/(_______/ ";
 echo -e $cyan "---------------------------"
 echo -e $red  " Welcome to installer tool "
-echo -e $red  "       darksecarmy.com     "
+echo -e $red  "       DarkSecArmy.CoM     "
 echo -e $cyan "---------------------------"
 mkdir /usr/share/Dsa.console
 cp install /usr/share/Dsa.console  
@@ -32,5 +32,5 @@ echo "#!/bin/sh" >> /usr/bin/Dsa.console
 echo "cd /usr/share/Dsa.console" >> /usr/bin/Dsa.console  
 echo "python2 beta.pyc \"\$@\"" >> /usr/bin/Dsa.console  
 chmod 777 /usr/bin/Dsa.console
-echo -e $lightgreen " ThePasha - StrongWolf - TheDengesiz_ - CeLLaT"
-echo -e $blue " DarkSecArmy.Com #WaitForUs "  
+echo -e $lightgreen " DarkSecArmy.CoM  |  PcDunyasi.TV "
+echo -e $blue " DarkSecurityArmy .. PcDünyasi "  
